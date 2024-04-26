@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweedledee & Tweedledum</title> 
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body> 
+    <tweedledee id="tweedledee">
+      <header class="bg-white shadow-md z-40 fixed w-full">
+        <div class="container p-5 mx-auto md:flex md:justify-between md:items-center">
+          <div class="flex justify-between">
+            <div class="text-3xl font-bold"><a href="index.html"><nobr>T<span class="text-[#660708]">weed</span>le-twins</nobr></a></div>
+            <div class="md:hidden z-40"><i id="toggle" class="text-2xl fa-solid fa-bars"></i></div>
+            <i class="fa-solid fa-pot-food"></i>
+          </div>
+          <div id="menu-slide"
+            class="md:static transition-all ease-in duration-300 absolute bg-white w-full top-[-1000px] left-0">
+            <div class="container p-5 mx-auto md:flex md:p-0 md:justify-end">
+              <p class="mb-6 md:mb-0"><a class="text-lg  font-medium md:ml-12" href="#intro">About</a></p>
+              <p class="mb-6 md:mb-0"><a class="text-lg  font-medium md:ml-12" href="#job">Hobbies</a></p>
+              <p class="mb-6 md:mb-0"><a class="text-lg  font-medium md:ml-12" href="#contact">Contact</a></p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div id="intro" class="bg-white">
+            <div
+              class="container py-[5rem] text-center md:text-left p-5 mx-auto flex md:flex-row flex-col justify-center items-center">
+              <div class="mx-auto  max-w-[400px] lg:max-w-[500px]  md:mx-4 lg:mx-8">
+                <img class="w-full"
+                  src="assets/tweedledee.webp"
+                  alt="">
+              </div>
+              <div class=" md:mx-4 lg:mx-8">
+                <h1 class="text-5xl font-bold mb-6 mt-8 md:mt-0">Tweedldee</h1>
+                <p class="text-lg font-medium mb-1">I have a big <span
+                    class="text-[#660708]">heart</span></p>
+                <p class="text-lg font-medium mb-1">I like <span class="text-[#660708]">butterfiles</span></p>
+                <p class="text-lg font-medium mb-1">I ❤️ <span class="text-[#660708]">cookies</span></p>
+              </div>
+            </div>
+        </div>
+        <div id="job" class="bg-[#ced4da] text-center py-12">
+          <div class="container p-5 mx-auto">
+            <h1 class="text-4xl font-bold">My Hobbies</h1>
+            <div class="grid grid-cols-1  md:grid-cols-2 gap-8 mt-8 max-w-[250px] md:max-w-[480px] mx-auto">
+              <div class="border-2 border-black p-8 rounded-2xl">
+                <i class="text-[#660708] text-[6rem] fa-solid fa-bowl-food"></i>
+                <p class="text-xl font-bold mt-4">Eating
+                </p>
+              </div>
+              <div class="border-2 border-black p-8 rounded-2xl">
+                <i class="text-[#660708] text-[6rem] fa-solid fa-landmark"></i>
+                <p class="text-xl font-bold mt-4">Ancient Greek History</p>
+              </div>
+              <div class="border-2 border-black p-8 rounded-2xl">
+                <i class="text-[#660708] text-[6rem] fa-solid fa-church"></i>
+                <p class="text-xl font-bold mt-4">Bible Studies</p>
+              </div>
+              <div class="border-2 border-black p-8 rounded-2xl">
+                <i class="text-[#660708] text-[6rem] fa-solid fa-pills"></i>
+                <p class="text-xl font-bold mt-4">Partying</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="contact" class="bg-white text-center py-12">
+          <div class="container p-5 mx-auto">
+            <h1 class="text-4xl font-bold">Please add me? 🙏 </h1>
+            <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
+              <i class="text-[#660708] text-5xl m-6 fa-brands fa-facebook-square"></i>
+            </a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
+
+              <i class="text-[#660708] text-5xl m-6 fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </main>
+    </tweedledee>   
+  <!-- <script src="script.js"></script> -->
+  </body>
+</html>
