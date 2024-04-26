@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    width: 100%;
+    top: 50%;
+    position: relative;
+    text-align: center;
+    font-family: Arial;
+    color: white;
+    margin: 0;
+}
+
+.parallax {
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url("https://lastingadventures.com/wp-content/uploads/2020/08/El-cap-facts.jpeg");
+    
+}
+
+.layer2 {
+    height: 25vh;
+    background-color: black;
+}
+
+.layer3 {
+    background-image: url("https://cdn.aarp.net/content/aarpe/en/home/travel/vacation-ideas/outdoors/info-2022/haleakala-national-park/_jcr_content/root/container_main/container_body_main/container_image/articlecontentfragme/cfimage.coreimg.75.1440.jpeg/content/dam/aarp/travel/national-parks/2022/06/1140-haleakala-national-park-sunrise.jpg");
+}

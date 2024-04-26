@@ -1,0 +1,37 @@
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+.dropdownbutton
+{
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: cornflowerblue;
+}
+.dropdowncontent
+{
+    display: none;
+    position: absolute;
+    background-color:mediumpurple;
+}
+.dropdown:hover .dropdowncontent
+{
+    display: block;
+}
+.dropdowncontent a
+{
+    display: block;
+    color: black;
+    font-family: Arial;
+    font-weight: Bold;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.dropdowncontent a:hover
+{
+    background-color:cornflowerblue;
+}

@@ -1,0 +1,25 @@
+
+body {
+    height: 100%;
+}
+html {
+    height: 100%;
+}
+table {
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+td{
+    border: 1px solid;
+}
+.bgc_blue
+{
+    background-color: lightblue;
+}
+.bgc_red
+{
+    background-color: lightcoral;
+}
+ 
